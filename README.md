@@ -5,23 +5,22 @@
 
 Team:  [Anna-Maria Palm](https://github.com/A-d-f), [Jenna Hakkarainen](https://github.com/jenhakk), [Amanda Karjalainen](https://github.com/amakarj), [Waltteri Grek](https://github.com/GreWalw)
 
-[Link to frontend repository](https://github.com/jenhakk/ICT-Project-Front-end)
+Link to [**the frontend**](https://github.com/amakarj/ICT-Project-Front-end) repository.
 
 ![frontend](https://user-images.githubusercontent.com/75020974/207854665-e7a05773-e7c1-446d-9b0d-64f0c1a542de.png) 
  
 
 ## Our task
 
-
 Our task was to explore and try the possibilities of voice recognition in the case of of 112 emergency calls. System should recognize appropriate incident assessments and correct answers from the conversation and it could suggest them to the call taker. Our program shouldn't make actions but only suggest the most likely correct answers to the calltaker.  
 
-Our program consists of four main parts: **backend, frontend, json and Google Speech-to-Text API**. 
+Our program consists of four main parts: **backend**, **frontend**, **json** and **Google Speech-to-Text API**. 
 
 The customer's wishes were to concentrate on creating a dynamic backend, creating a json file from which the data will be read and creating an algorithm that supports non-chronological progressing. 
 
 ## Introduction 
  
-A program which uses ready-made API to recognize speech and transcribe it to text. We have example incident assessments trees made in json, which contain **IDs, values, questions, answers, keywords, negative keywords etc.**  
+A program which uses ready-made API to recognize speech and transcribe it to text. We have example incident assessments trees made in json, which contain **IDs**, **values**, **questions**, **answers**, **keywords**, **negative keywords**, **etc**.  
 
 The program utilizes the algorithm we created to compare transcript words to the keywords of the incident assessment trees, and sends the matching words to the frontend via REST. 
 
